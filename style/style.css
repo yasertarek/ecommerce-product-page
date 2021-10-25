@@ -461,6 +461,9 @@ body{
         display: none;
     }
     .nav__list{
+        display: flex;
+    }
+    .nav__menu{
         position: static;
         width: auto;
         height: auto;
@@ -471,7 +474,6 @@ body{
         transform: translateX(0);
         -webkit-transform: translateX(0);
         transition: all 0.2s ease-in-out;
-        display: flex;
     }
     .nav__list li:not(:last-child){
         margin-right: 3.2rem;
